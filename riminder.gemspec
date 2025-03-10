@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.files       = ["lib/filter.rb", "lib/profile.rb", "lib/requtils.rb", "lib/restClientW.rb", "lib/riminderException.rb", "lib/riminder.rb", "lib/source.rb", "lib/webhook.rb"]
   s.homepage    = 'https://riminder.net'
   s.metadata    = { "source_code_uri" => "https://github.com/Riminder/ruby-riminder-api" }
-  s.required_ruby_version = '~> 2.5'
+  s.required_ruby_version = '> 2.5'
   s.add_runtime_dependency 'rest-client', '~> 2.0', '>= 2.0.2'
   s.add_runtime_dependency 'activesupport', '~> 5.0', '>= 5.0'
   s.add_development_dependency 'rubocop', '~> 0.58.2', '>= 0.58'
